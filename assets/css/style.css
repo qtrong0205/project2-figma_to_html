@@ -37,6 +37,13 @@ a {
   cursor: pointer;
 }
 
+.heading-lv2 {
+  color: #0d1111;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 1.34;
+}
+
 /* ================= header ==================== */
 .header {
   background-color: #fff;
@@ -302,4 +309,53 @@ a {
   color: #0d1111;
   font-size: 1rem;
   font-weight: 500;
+}
+
+/* ================= feature ==================== */
+.feature {
+  margin: 144px 0px 65px;
+  padding: 65px 0px;
+}
+
+.feature .body {
+  width: 1024px;
+}
+
+.feature-top .label {
+  color: #767e7e;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.feature-top .heading-lv2 {
+  margin-top: 18px;
+  width: 577px;
+}
+
+.feature-top .desc {
+  margin-top: 18px;
+  width: 590px;
+  color: #767e7e;
+  font-size: 1.8rem;
+}
+
+.feature .item-list {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature .item .title {
+  margin-top: 26px;
+  color: #0d1111;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.feature .item .desc {
+  width: 168px;
+  margin-top: 16px;
+  color: #9da6a5;
+  font-size: 1.6rem;
+  line-height: 1.69;
 }
