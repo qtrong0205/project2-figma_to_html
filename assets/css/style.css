@@ -44,6 +44,12 @@ a {
   line-height: 1.34;
 }
 
+.label {
+  color: #767e7e;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
 /* ================= header ==================== */
 .header {
   background-color: #fff;
@@ -321,12 +327,6 @@ a {
   width: 1024px;
 }
 
-.feature-top .label {
-  color: #767e7e;
-  font-size: 1.2rem;
-  font-weight: 700;
-}
-
 .feature-top .heading-lv2 {
   margin-top: 18px;
   width: 577px;
@@ -358,4 +358,115 @@ a {
   color: #9da6a5;
   font-size: 1.6rem;
   line-height: 1.69;
+}
+
+/* ================= course ==================== */
+.course {
+  padding: 65px 0px 135px;
+  margin-top: 65px;
+}
+
+.course .heading-lv2 {
+  margin-top: 18px;
+}
+
+.course .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.course .wrapper .desc {
+  margin-top: 18px;
+  width: 525px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  line-height: 1.78;
+}
+
+.course .wrapper .view {
+  color: #1ebfc1;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+
+.course-list {
+  margin-top: 80px;
+  display: flex;
+  gap: 47px;
+}
+
+.course-list .thumb {
+  width: 359px;
+  height: 393px;
+  border-radius: 8px;
+  background: #d0efed;
+}
+
+.course-list .course-item {
+  position: relative;
+}
+
+.course-list .course-item .info {
+  position: absolute;
+  right: 17px;
+  bottom: -124px;
+  width: 325px;
+  flex-shrink: 0;
+  padding: 18px 25px 29px;
+  padding-right: 0;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 16px 90px 0 rgba(0, 0, 0, 0.05);
+}
+
+.course-list .course-item .title {
+  margin-bottom: 16px;
+  color: #0d1111;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.course-list .course-item .price {
+  color: #767e7e;
+  font-size: 1.6rem;
+}
+
+.course-list .price strong {
+  color: #0d1111;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.course-list .info .desc {
+  margin-top: 6px;
+  color: #9da6a5;
+  font-size: 1.4rem;
+  margin-bottom: 18px;
+}
+
+.course-list .info .foot {
+  color: #9da6a5;
+  font-size: 1.4rem;
+}
+
+.course-list .foot .detail::after,
+.course-list .foot .detail::before {
+  display: inline-block;
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  margin: 0px 10px;
+}
+
+.course-list .foot .detail::before {
+  margin-left: 0px;
 }
