@@ -63,11 +63,13 @@ a {
   margin-bottom: 42px;
 }
 
+.footer .logo,
 .header .logo {
   display: flex;
   align-items: center;
 }
 
+.footer .logo .icon,
 .header .logo .icon {
   width: 32.137px;
   height: 32.731px;
@@ -79,6 +81,7 @@ a {
   background-color: #192122;
 }
 
+.footer .logo .img,
 .header .logo .img {
   width: 75.517px;
   height: 17.47px;
@@ -662,4 +665,45 @@ a {
   border-radius: 14px;
   background: #1ebfc1;
   box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+}
+
+/* ================= footer ==================== */
+.footer {
+  margin-top: 65px;
+  padding: 65px 0px 50px;
+}
+
+.footer .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 80px;
+}
+
+.footer .row .column .title {
+  margin-bottom: 25px;
+  color: #2e2e2e;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.footer .column .list li {
+  margin-top: 18px;
+}
+
+.footer .column .list a {
+  color: #535353;
+  font-size: 1.6rem;
+}
+
+.footer .col-4 li {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.footer .copyright {
+  text-align: center;
+  color: #b0b5b4;
+  font-size: 1.8rem;
 }
