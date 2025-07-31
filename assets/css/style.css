@@ -321,6 +321,7 @@ a {
 .feature {
   margin: 144px 0px 65px;
   padding: 65px 0px;
+  background-color: #def6f5;
 }
 
 .feature .body {
@@ -406,6 +407,7 @@ a {
   width: 359px;
   height: 393px;
   border-radius: 8px;
+  opacity: 0.7;
   background: #d0efed;
 }
 
@@ -469,4 +471,195 @@ a {
 
 .course-list .foot .detail::before {
   margin-left: 0px;
+}
+
+/* ================= stats ==================== */
+.stats {
+  padding: 65px 0px;
+  margin: 200px 0px 135px;
+}
+
+.stats .wrapper {
+  width: 862px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px auto;
+}
+
+.stats .value {
+  height: 93px;
+  text-align: center;
+}
+
+.stats .value span {
+  color: #0d1111;
+  text-align: center;
+  font-size: 6.2rem;
+  font-weight: 700;
+}
+
+.stats .wrapper .desc {
+  color: #767e7e;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+/* ================= feedback ==================== */
+.feedback {
+  padding-top: 65px;
+}
+
+.feedback .wrapper {
+  display: flex;
+}
+
+.feedback .content-block {
+  width: 35.9%;
+  height: 480px;
+  margin-right: 72px;
+}
+
+.feedback .content-block blockquote {
+  margin-top: 27px;
+  margin-bottom: 33px;
+  color: #5d6564;
+  font-size: 3.2rem;
+  line-height: 1.5;
+}
+
+.feedback .content-block .info {
+  color: #767e7e;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+}
+
+.feedback .content-block .info strong {
+  color: #070707;
+  font-size: 1.6rem;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+}
+
+.feedback .content-block .info strong::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 2px;
+  background-color: #070707;
+  margin-right: 5px;
+}
+
+.fb-control {
+  margin-top: 52px;
+  display: flex;
+  gap: 30px;
+}
+
+.feedback .fb-control .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.feedback .fb-control .btn:hover {
+  border: 1px solid black;
+}
+
+.feedback .media-block {
+  width: 57.9%;
+  position: relative;
+}
+
+.feedback .media-block .img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.feedback .media-block .img1 {
+  width: 92px;
+  height: 92px;
+  position: absolute;
+  top: 0;
+  left: 144px;
+}
+
+.feedback .media-block .img2 {
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  top: 19px;
+  right: 0;
+}
+
+.feedback .media-block .img3 {
+  position: absolute;
+  left: 0;
+  bottom: 142px;
+}
+
+.feedback .media-block .img4 {
+  position: absolute;
+  bottom: 0;
+  left: 212px;
+}
+
+.feedback .media-block .img6,
+.feedback .media-block .img4,
+.feedback .media-block .img3 {
+  width: 78px;
+  height: 78px;
+}
+
+.feedback .media-block .img5 {
+  width: 235px;
+  height: 235px;
+  position: absolute;
+  top: 107px;
+  right: 171px;
+}
+
+.feedback .media-block .img6 {
+  position: absolute;
+  right: 29px;
+  bottom: 29px;
+}
+
+/* ================= admit ==================== */
+.admit {
+  margin-top: 130px;
+  padding: 76px 0;
+  background-color: #def6f5;
+}
+
+.admit .wrapper {
+  display: flex;
+  align-items: center;
+  gap: 410px;
+}
+
+.admit .desc {
+  margin-top: 18px;
+  color: #767e7e;
+  font-size: 1.8rem;
+}
+
+.admit .btn {
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 0 41px;
+  min-width: 186px;
+  line-height: 68px;
+  border-radius: 14px;
+  background: #1ebfc1;
+  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
 }
